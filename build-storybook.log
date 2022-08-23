@@ -1,0 +1,905 @@
+[0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+
+1.1.19
+
+TypeScript version used by Compodoc : 4.5.5
+
+TypeScript version of current project : 4.6.2
+
+Node.js version : v16.17.0
+
+Operating system : macOS Big Sur
+
+[22:46:59] No configuration file found, switching to CLI flags.
+[22:46:59] Using tsconfig file : /Users/kazuma/storybook/taskbox/tsconfig.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.editorconfig
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.browserslistrc
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.gitignore
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/LICENSE
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/README.md
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/angular.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/build-storybook.log
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/documentation.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/package-lock.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/package.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/tsconfig.app.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/jest.config.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/tsconfig.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/tsconfig.spec.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.storybook/main.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.storybook/preview.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.storybook/tsconfig.json
+[22:46:59] Ignoring       : /Users/kazuma/storybook/taskbox/.storybook/typings.d.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/jest-config/setup.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/favicon.ico
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/index.html
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/main.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/polyfills.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/styles.css
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/228.2f7edc13.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/225.adf1b44b.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/239.43bc22d7.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/228.2f7edc13.iframe.bundle.js.LICENSE.txt
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/239.43bc22d7.iframe.bundle.js.LICENSE.txt
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/256.77f9417458f9760f016a.manager.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/291.4044512f.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/291.4044512f.iframe.bundle.js.LICENSE.txt
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/345.b8f4061f.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/295.d529687a131da6bdd8ab.manager.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/39.2ed10874.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/39.2ed10874.iframe.bundle.js.LICENSE.txt
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/434.2c467153.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/468.01895f4e10fff0f7c1e1.manager.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/468.01895f4e10fff0f7c1e1.manager.bundle.js.LICENSE.txt
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/471.dfee531c.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/471.dfee531c.iframe.bundle.js.LICENSE.txt
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/528.424a7bd4a9e142c5a41e.manager.bundle.js.LICENSE.txt
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/528.424a7bd4a9e142c5a41e.manager.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/565.de0d997c.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/565.de0d997c.iframe.bundle.js.LICENSE.txt
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/616.ae38c0c3.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/551.d0a523cde4424f5b22f1.manager.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/616.ae38c0c3.iframe.bundle.js.LICENSE.txt
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/616.ae38c0c3.iframe.bundle.js.map
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/675.026c885b9c746c5e7254.manager.bundle.js.LICENSE.txt
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/675.026c885b9c746c5e7254.manager.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/838.7fd7a00f79d212ba2930.manager.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/974.cf670b6aae723599bdbd.manager.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/838.7fd7a00f79d212ba2930.manager.bundle.js.LICENSE.txt
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/996.d4e97a00.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/favicon.ico
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/iframe.html
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/index.html
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/main.307a35379e8eac9ac89b.manager.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/main.f2682d39.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/main.css
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/percolate.eot
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/percolate.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/percolate.ttf
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/percolate.woff
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/project.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/runtime~main.174aafe5b39389be74a8.manager.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/runtime~main.65339cf0.iframe.bundle.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/jest-config/__mocks__/fileMock.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/jest-config/__mocks__/styleMock.js
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/app.component.css
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/app.component.html
+[22:46:59] Ignoring       : /Users/kazuma/storybook/taskbox/src/app/app.component.spec.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/app.component.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/app.module.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/environments/environment.prod.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/environments/environment.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/.gitkeep
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/Button.stories.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/Introduction.stories.mdx
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/Page.stories.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/User.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/Header.stories.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/button.component.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/button.css
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/header.component.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/header.css
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/page.component.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/page.css
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/jest-config/__mocks__/globalMocks.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/inbox-screen.component.html
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/inbox-screen.component.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/pure-inbox-screen.component.html
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/pure-inbox-screen.component.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/pure-inbox-screen.stories.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/pure-task-list.component.html
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/pure-task-list.component.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/pure-task-list.stories.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/task-list.component.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/task.component.html
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/task.component.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/task-list.component.html
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/task.module.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/components/task.stories.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/models/task.model.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/app/state/task.state.ts
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/icon/percolate.eot
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/icon/percolate.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/icon/percolate.ttf
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/icon/percolate.woff
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/font/OpenSans-Light-webfont.eot
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/font/OpenSans-Light-webfont.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/font/OpenSans-Light-webfont.ttf
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/font/OpenSans-Light-webfont.woff
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/font/OpenSans-Regular-webfont.eot
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/font/OpenSans-Regular-webfont.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/font/OpenSans-Regular-webfont.woff
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/assets/font/OpenSans-Regular-webfont.ttf
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/assets/colors.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/assets/code-brackets.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/assets/comments.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/assets/direction.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/assets/flow.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/assets/repo.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/assets/plugin.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/src/stories/assets/stackalt.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/font/OpenSans-Light-webfont.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/font/OpenSans-Light-webfont.eot
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/font/OpenSans-Light-webfont.ttf
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/font/OpenSans-Light-webfont.woff
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/font/OpenSans-Regular-webfont.eot
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/font/OpenSans-Regular-webfont.ttf
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/font/OpenSans-Regular-webfont.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/font/OpenSans-Regular-webfont.woff
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/icon/percolate.eot
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/icon/percolate.svg
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/icon/percolate.ttf
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/storybook-static/assets/icon/percolate.woff
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/013e6c754a91b4229ea4d3090d2b3030.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/0ad83958c5dc170577a9a1ef53809421.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/0590c2a1e46f98580cc6667f8d7b6b3f.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/08f42eef2eaab2cbaf2802a66e67bc22.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/0b17a76cfea94efabf7b572e8783487d.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/0c41e9f5b0342dff34c64c46e1ce91b2.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/0d573e2f931d1edbd57e8114db65c4fc.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/0dfcf2095ef4611555a7ce6b2226d82c.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/0e0cdfea8b98277490ff2e23ad1b683e.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/105c9f6bb5beba8dcc37f58d18da6e1f.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/150cba7429f3394e2572949220d93332.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/15a539ed9c383cb162baad18d5a11030.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/165ff45f38d7b2b60fc92e8a104feb52.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/1760ec05e8dd00879f8c757a06e6d9fe.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/17b14eea4cddcdb1b544cbe90bc65d38.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/1a2efdd7ae75c511ce6842d7a89c9054.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/1b9e97e3b7016a0df997c4ca644796e0.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/1e4a83aca83f191505eb118162a6d1d3.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/1e59d3d6abf2527cfc001691403113e8.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/2076d791b56f9d30520e0640824220a9.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/214f39581094e1a2de67cfde349222a6.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/23669e55319dbd94adacb6d5e2f82f0b.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/23e3e28e6dc6740abcae187e3a94b87a.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/2444e9ebd2fe3fa22aa5798d6d8d5f25.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/25851d0af91373602f780c523be02c47.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/25ac4f7f1c821ab4643db287834c1b88.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/25b867ad7df24b82b8e3ec129f8a0f1a.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/2b7091d8938e3152425ffe49a900ddb1.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/2cde9af0ef9c9ace49d27e08f4e8e1e3.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/2ec7a9761eab86f75d6c5855b9d5cb23.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/2eeebcdc71a50a802fcb24d4b1d8864e.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/2f138d8605bd6afa61c420b5191b9029.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/329d6cc8416f1c5eaf2e140cb54cfb2b.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/341b8e8b97377405df478014d3a0d23f.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/3476a2047fbc4ff6e4fe593a07de8eb6.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/348f181a46b309a2dd566ce9f4274764.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/34ba50bf4fa362cee097ec4d5df8773d.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/357ae2be6bb78b41600cd093d7af6810.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/35d6a69a0f27fa2b350fa7bbfe7a2fa9.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/393f68065291d40973ef2ef3479d911b.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/395e67f8f1155d1d0b1423a8f53e5534.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/3ece5db7efaa3346bda562332c1a86ba.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/40f36356069580474ae2d1a7acd532c7.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/426062bd55fe31e0235cfd5ea478d3e0.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/4268472d5ea11aeba535627e4772cbaf.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/4307955875ff0e430f079216d86817b3.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/4329afb53b41ae24255e9b0a5683c4d5.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/4356a2b7eaf84e8278f3805939eea063.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/43ad0d50ba2bb1846fab60501e27991d.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/44654a5039916c178c8a04d01edfd258.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/44f72fe30bc4c73c75a554a5bd0c62c8.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/45c2124ca9e3c5369ee9f4eb3499f9c8.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/471c6fbf94b4e30be7aa9bbea7200282.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/490382e2b87ab1341083df30dd7f27ca.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/4971aa8ea1a5f4a31a14c297d692dcb9.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/4a0c5b0d253020770286cea05f265caa.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/4be75bcadf503aebcda99047d70fb4a6.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/50168145a4bd0cd198e8bd65e6e28b0f.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/514911b9a20b7c57d5bc81657245e042.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/5652809618e4621c805bec61c15afb4b.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/586d59020925fb2325718938d5f8c1aa.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/5b035f769278c7eea9ef4eb46424b760.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/5bde88ff42a6a0ed7dc42d187b56468e.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/56b23b2250f220ad4f8e107e559453a1.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/5d6ac177ba484e5e18f89d7c4e8f50c6.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/5d8e945d72eff83a9227995e6dd516ff.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/64395404cbb22feeaca53d55fb640232.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/65700709d57762e98b47128777390498.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/69602b9e27c0b46116ca8e4707557b8a.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/6c14172b4f10ac17e62fbd81228cff8b.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/6fd8ca52e5fa0b2eb5f3da15f086909b.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/6ffed7c02838c25052ad72172b3f5f13.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/722762fcb80b81b95d3fd06669c36211.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/731a5fcdf64f8470aa2bb7dd60dd3f8e.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/736be272e0f0475506e67bd5cf951863.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/742e8acea5e4c8c3fb14bb553716f6fb.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/74d5dcd4bd19f5be0f887f4a3e9aed5c.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/75fe307860754f68e1fd67f7c7d23402.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/76c15548be198e1a3e71837ad315cc25.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/772175fb44db897fa89a9b11e6de3b03.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/77675c39852bb678b0d07c3a73731024.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/79e19da3f92df36120c088e588f0d8bc.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/7b8732824f2534f19fbf35d6b7242fc1.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/7c4ad65de40913a172c54fb1cf074247.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/7e29f8d7c76cd190ff91ad223a80e52d.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/80d68a7dce2d6803d356dc616b2eb331.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/822129e8c0d9bc87d8823c3053bf0b3d.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/82307a4bcdc582c99fea1732280efc64.json
+[22:46:59] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/85fb1a140932ab066b436f4a83a8da7e.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/88ccf7fc4bd76b21b55c5da57f3760eb.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/8906f22b55a92c14dda01fc633023d16.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/8adba92d188a63550725a7bae0cb6548.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/8d7e95daff98520b46a88553d1d9af00.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/8a8855c06f48d5cc17877b49af9dfbe2.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/8aa90e40f262b529c9251cf24130553b.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/8f74199548690c7931a146f5f2089271.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/8fe7ac0fdd2a77d345865dad4f34e6fd.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/9347db28098131f6ef9b508507d2bcce.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/909f96e250d229670fe1659eb4aa4410.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/94b63ecc66c03b17dde4424100b7926b.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/9a7125d7bfa1eb61cc0a4dc0eaecf2c1.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/9c72243d119fd375ef76f7c8baa82f98.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/9c909174cdaa56590109be3bb765569a.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/9d6ec790fd71ca21dd35b23c5edf70ef.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/9e1129fb1b99855c3ed38a93c7f0a13f.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/9ed5184c017f470554832e43fe4f9a10.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/9edadcf798ccdf8de449b4ddebe88828.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/9fff76d7c99b910961e83a4aca605848.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/a011e00d4e4903080248f6ed7940b86b.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/a2276fc5cc483e2aac728911e7904d97.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/a25d1dfd0c52df40ea0889a50a53fc7e.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/a2b7a0e7c5816185f85a189781afc3c5.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/a6e69183d028c352133eb7ecb7d6b397.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/a70f8e76a5467e4dd2b7fddd87de5bf5.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/a97da0462a71fae3e9310b5fe7ece2ac.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/a42df0b29c50fd7ce83cb81635211277.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/a57798858cef86c217bfdd465e4ca9c5.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/aa500e015cd33138b847061bf4fc78be.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/aaca168c70cad8232325747d3e9ae18f.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/acfa011b887b77b477fb3d3da057fb0c.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ad66c05a15578e4872e1b437fa91fecd.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/afec5e3064cabc521cd23c966bc7f4f3.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/b3bcdc83771c500baab93d1373cf34bb.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/b5e7ebc532ef5e6b1365f57ccb23fc99.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/b6365f2725f0004a7fdcc4e9a69bd2c8.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/b73bf19f5dc033f7dbbb4b16e8440af2.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/b7d03d723c94572bf7ea5996220ce317.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/b81cb64dcbde4e6d684ccd12f0579968.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/b8061102e925867f8a00068de5fffa22.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/bc4bb3b54ca8129305f3e95cc48781b9.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/bc9604923022eba4433fc25c8d27af4c.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/bfd03d78d9cbeefff81b041d543bbbf5.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/c02578bbbd695d18ee1b4358ef674625.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/c342e376d3487cd0bc83413f3fd20eaa.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/c3e2cf3e052fc8fe10397b606bbd44c1.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/c45012e15c2796e6f886e77bff813376.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/c4d9ac4a7546b87a2f98b46e4fac1859.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/c51f6c08074ec3a87fc5c79097a58d00.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/c610dcd518563471f20cf72815311553.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/c654dee369187006a1201f22c6182072.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/c914370a4f7b5bb4acccada7ac099507.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/c98b4df41295fb1728738c57d398df51.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/c9d5baf1f2553f3b589b4ae2dc52be56.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ca5421c5360bff7ad409dc7046ebfcda.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ce09bd3ffcf5aa05b01e30d8bc357711.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ce974f463fa1dcdd8bad21ba8bf5a3fc.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/cf3faad9f6fc02174fb62f283f3b9804.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/d17c1594c300d834c3b22a6d8a80190e.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/d328b171eb39cfb449c2f3daf142ceaf.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/d9cb868f2ef925c7129b33552069d8fa.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/dc647c2ebcb82d5f44b9611e5c57b477.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/dd26e36cd65d2b8ec02c1007138a8d52.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/de384a11375db0027886470f1935b366.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/dfa6de7c9b295cd074d9cd998f1bb6dc.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/e1c41bd052eaf5fc1543d76b0c82fa22.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/e558a3fb22e2f4abcb6766e8d415e868.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/e36d971b35ab57ad67f99ddc8a393b4c.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/e72a100f2d60db872eef85f0760cc932.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/e775f9b7d572f050c7a96c2f694900a0.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/e8074a313ddb0866ff462e9241dfdc9a.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/e8f304a37545c5af906e6a11a0c15f20.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ec08dbda913922477c2b8de6f5388d4d.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ec6330d32119ca1f002d496f4710c50a.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ec8fd9390d6e48dad9f67d133304bf4f.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ed50e77e074a91f8d756ca7503467fbf.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ef59d525ba574405138ea11d3e0ff2a1.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/f32c0802bf54806764082d043a4b3413.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/f3dd81f2aa062fc904eb2913208def64.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/f7c643ce113601d99962b66bdc048e13.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/f89cb912df4e0fc27f1e4ed5343ea413.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/fad82e221dea6f77ed43e44d78b44c75.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/fc47e233957b49573c1d2fe8d146797b.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/fce51894ceec495b7fdc7360a70611a9.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/fdf3570d131cd0032955bef4582bd4c4.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/feb3211fa1188d0871cb23825a005cca.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/fec8f6cda8b4617574cc690eb98c4456.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ff1d0f15f18013dd29b60639127970c3.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ff698a9ce07341deca18584ec4d4f6a5.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/babel-webpack/ffe83b6e2b9659b73f4d964d7faa83cc.json
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/angular-webpack/3378b33ae38adc4a8e423a152da46ce08ac3f67f/0.pack
+[22:47:00] Including      : /Users/kazuma/storybook/taskbox/.angular/cache/13.3.9/angular-webpack/3378b33ae38adc4a8e423a152da46ce08ac3f67f/index.pack
+[22:47:00] Searching package.json file
+[22:47:00] package.json file found
+[22:47:00] Processing package.json dependencies
+[22:47:00] Processing package.json peerDependencies
+[22:47:00] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[22:47:00] README.md file found
+[22:47:00] Error during /Users/kazuma/storybook/taskbox/CHANGELOG read
+[22:47:00] Continuing without CHANGELOG.md file
+[22:47:00] Error during /Users/kazuma/storybook/taskbox/CONTRIBUTING read
+[22:47:00] Continuing without CONTRIBUTING.md file
+[22:47:00] LICENSE.md file found
+[22:47:00] Error during /Users/kazuma/storybook/taskbox/TODO read
+[22:47:00] Continuing without TODO.md file
+[22:47:00] Get dependencies data
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/jest-config/setup.ts
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/main.ts
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/polyfills.ts
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/app.component.ts
+[22:47:04] found          : AppComponent
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/app.module.ts
+[22:47:04] found          : AppModule
+[22:47:04]                : - imports:
+[22:47:04]                : 	- BrowserModule
+[22:47:04]                : 	- TaskModule
+[22:47:04]                : 	- NgxsModule
+[22:47:04]                : 	- NgxsReduxDevtoolsPluginModule
+[22:47:04]                : 	- NgxsLoggerPluginModule
+[22:47:04]                : - declarations:
+[22:47:04]                : 	- AppComponent
+[22:47:04]                : 	- InboxScreenComponent
+[22:47:04]                : 	- PureInboxScreenComponent
+[22:47:04]                : - bootstrap:
+[22:47:04]                : 	- AppComponent
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/environments/environment.prod.ts
+[22:47:04] found          : environment
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/environments/environment.ts
+[22:47:04] found          : environment
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/stories/Button.stories.ts
+[22:47:04] found          : Template
+[22:47:04] found          : Primary
+[22:47:04] found          : Secondary
+[22:47:04] found          : Large
+[22:47:04] found          : Small
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/stories/Page.stories.ts
+[22:47:04] found          : Template
+[22:47:04] found          : LoggedOut
+[22:47:04] found          : LoggedIn
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/stories/User.ts
+[22:47:04] found          : User
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/stories/Header.stories.ts
+[22:47:04] found          : Template
+[22:47:04] found          : LoggedIn
+[22:47:04] found          : LoggedOut
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/stories/button.component.ts
+[22:47:04] found          : ButtonComponent
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/stories/header.component.ts
+[22:47:04] found          : HeaderComponent
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/stories/page.component.ts
+[22:47:04] found          : PageComponent
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/jest-config/__mocks__/globalMocks.ts
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/components/inbox-screen.component.ts
+[22:47:04] found          : InboxScreenComponent
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/components/pure-inbox-screen.component.ts
+[22:47:04] found          : PureInboxScreenComponent
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/components/pure-inbox-screen.stories.ts
+[22:47:04] found          : Template
+[22:47:04] found          : Default
+[22:47:04] found          : Error
+[22:47:04] found          : WithInteractions
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/components/pure-task-list.component.ts
+[22:47:04] found          : PureTaskListComponent
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/components/pure-task-list.stories.ts
+[22:47:04] found          : Template
+[22:47:04] found          : Default
+[22:47:04] found          : WithPinnedTasks
+[22:47:04] found          : Loading
+[22:47:04] found          : Empty
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/components/task-list.component.ts
+[22:47:04] found          : TaskListComponent
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/components/task.component.ts
+[22:47:04] found          : TaskComponent
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/components/task.module.ts
+[22:47:04] found          : TaskModule
+[22:47:04]                : - imports:
+[22:47:04]                : 	- CommonModule
+[22:47:04]                : 	- NgxsModule
+[22:47:04]                : - exports:
+[22:47:04]                : 	- TaskComponent
+[22:47:04]                : 	- TaskListComponent
+[22:47:04]                : - declarations:
+[22:47:04]                : 	- TaskComponent
+[22:47:04]                : 	- TaskListComponent
+[22:47:04]                : 	- PureTaskListComponent
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/components/task.stories.ts
+[22:47:04] found          : actionsData
+[22:47:04] found          : Template
+[22:47:04] found          : Default
+[22:47:04] found          : Pinned
+[22:47:04] found          : Archived
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/models/task.model.ts
+[22:47:04] found          : Task
+[22:47:04] parsing        : /Users/kazuma/storybook/taskbox/src/app/state/task.state.ts
+[22:47:04] found          : actions
+[22:47:04] found          : ArchiveTask
+[22:47:04] found          : PinTask
+[22:47:04] found          : AppError
+[22:47:04] found          : defaultTasks
+[22:47:04] found          : TaskStateModel
+[22:47:04] found          : TasksState
+[22:47:04] -------------------
+[22:47:04] Project statistics 
+[22:47:04] - files      : 317
+[22:47:04] - module     : 2
+[22:47:04] - component  : 9
+[22:47:04] - injectable : 1
+[22:47:04] - class      : 3
+[22:47:04] - interface  : 3
+[22:47:04] -------------------
+[22:47:04] Prepare components
+[22:47:04]  ButtonComponent has styleUrls, include them
+[22:47:04]  HeaderComponent has styleUrls, include them
+[22:47:04]  InboxScreenComponent has a templateUrl, include it
+[22:47:04]  PageComponent has styleUrls, include them
+[22:47:04]  PureInboxScreenComponent has a templateUrl, include it
+[22:47:04]  PureTaskListComponent has a templateUrl, include it
+[22:47:04]  TaskComponent has a templateUrl, include it
+[22:47:04]  TaskListComponent has a templateUrl, include it
+[22:47:04] Prepare modules
+[22:47:04] Prepare injectables
+[22:47:04] Prepare classes
+[22:47:04] Prepare interfaces
+[22:47:04] Prepare miscellaneous
+[22:47:04] Process documentation coverage report
+[22:47:04] Generating documentation in export format json
+[22:47:04] Documentation generated in ./ in 5.042 seconds
+info @storybook/angular v6.5.10
+info 
+info => Cleaning outputDir: /var/folders/5_/__d3cd3x5nx1f8405txk2nqm0000gn/T/chromatic--98410-oUyONvPXdcQt
+info => Loading presets
+info => Compiling manager..
+info => Compiling preview..
+info Addon-docs: using MDX1
+info => Using implicit CSS loaders
+info => Loading angular-cli config for angular >= 13.0.0
+info => Using angular project with "tsConfig:/Users/kazuma/storybook/taskbox/.storybook/tsconfig.json"
+WARN Your Storybook startup uses a solution that will not be supported in version 7.0. 
+WARN You must use angular builder to have an explicit configuration on the project used in angular.json
+WARN Read more at:
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#sb-angular-builder)
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#angular13)
+info => Using angular project "taskbox:build" for configuring Storybook
+info => Using default Webpack5 setup
+<s> [webpack.Progress] 0% 
+
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 1% setup before run NodeEnvironmentPlugin
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 4% setup normal module factory CaseSensitivePathsPlugin
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 6% setup before compile angular-compiler
+<s> [webpack.Progress] 6% setup before compile ProgressPlugin
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 7% setup compile ExternalsPlugin
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 8% setup compilation CopyPlugin
+<s> [webpack.Progress] 8% setup compilation angular-compiler
+<s> [webpack.Progress] 8% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 8% setup compilation ArrayPushCallbackChunkFormatPlugin
+<s> [webpack.Progress] 8% setup compilation JsonpChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation StartupChunkDependenciesPlugin
+<s> [webpack.Progress] 8% setup compilation ImportScriptsChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileWasmPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileAsyncWasmPlugin
+<s> [webpack.Progress] 8% setup compilation WorkerPlugin
+<s> [webpack.Progress] 8% setup compilation SplitChunksPlugin
+<s> [webpack.Progress] 8% setup compilation RuntimeChunkPlugin
+<s> [webpack.Progress] 8% setup compilation ResolverCachePlugin
+<s> [webpack.Progress] 8% setup compilation HtmlWebpackPlugin
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 9% setup compilation named-chunks-plugin
+<s> [webpack.Progress] 9% setup compilation DedupeModuleResolvePlugin
+<s> [webpack.Progress] 9% setup compilation AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 9% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 9% setup compilation SuppressExtractedTextChunks
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation ProvidePlugin
+<s> [webpack.Progress] 9% setup compilation ProgressPlugin
+<s> [webpack.Progress] 9% setup compilation ChunkPrefetchPreloadPlugin
+<s> [webpack.Progress] 9% setup compilation SourceMapDevToolPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptModulesPlugin
+<s> [webpack.Progress] 9% setup compilation JsonModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AssetModulesPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation RuntimePlugin
+<s> [webpack.Progress] 9% setup compilation InferAsyncModulesPlugin
+<s> [webpack.Progress] 9% setup compilation DataUriPlugin
+<s> [webpack.Progress] 9% setup compilation FileUriPlugin
+<s> [webpack.Progress] 9% setup compilation CompatibilityPlugin
+<s> [webpack.Progress] 9% setup compilation HarmonyModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AMDPlugin
+<s> [webpack.Progress] 9% setup compilation RequireJsStuffPlugin
+<s> [webpack.Progress] 9% setup compilation CommonJsPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation NodeStuffPlugin
+<s> [webpack.Progress] 9% setup compilation APIPlugin
+<s> [webpack.Progress] 9% setup compilation ExportsInfoApiPlugin
+<s> [webpack.Progress] 9% setup compilation WebpackIsIncludedPlugin
+<s> [webpack.Progress] 9% setup compilation ConstPlugin
+<s> [webpack.Progress] 9% setup compilation UseStrictPlugin
+<s> [webpack.Progress] 9% setup compilation RequireIncludePlugin
+<s> [webpack.Progress] 9% setup compilation RequireEnsurePlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation ImportPlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation SystemPlugin
+<s> [webpack.Progress] 9% setup compilation ImportMetaPlugin
+<s> [webpack.Progress] 9% setup compilation URLPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsFactoryPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPresetPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPrinterPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptMetaInfoPlugin
+<s> [webpack.Progress] 9% setup compilation EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 9% setup compilation RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 9% setup compilation MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 9% setup compilation FlagIncludedChunksPlugin
+<s> [webpack.Progress] 9% setup compilation SideEffectsFlagPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyExportsPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyUsagePlugin
+<s> [webpack.Progress] 9% setup compilation InnerGraphPlugin
+<s> [webpack.Progress] 9% setup compilation MangleExportsPlugin
+<s> [webpack.Progress] 9% setup compilation ModuleConcatenationPlugin
+<s> [webpack.Progress] 9% setup compilation NoEmitOnErrorsPlugin
+<s> [webpack.Progress] 9% setup compilation RealContentHashPlugin
+<s> [webpack.Progress] 9% setup compilation WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 9% setup compilation NamedModuleIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation TerserPlugin
+<s> [webpack.Progress] 9% setup compilation TemplatedPathPlugin
+<s> [webpack.Progress] 9% setup compilation RecordIdsPlugin
+<s> [webpack.Progress] 9% setup compilation WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 9% setup compilation IgnoreWarningsPlugin
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 10% building
+<s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
+<s> [webpack.Progress] 10% building 0/18 entries 12/18 dependencies 0/12 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/mini-css-extract-plugin/dist/loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/css-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/postcss-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building 0/18 entries 13/18 dependencies 0/13 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@ngtools/webpack/src/ivy/index.js
+<s> [webpack.Progress] 10% building 0/18 entries 15/19 dependencies 0/15 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@storybook/source-loader/dist/cjs/index.js
+<s> [webpack.Progress] 10% building 0/18 entries 112/138 dependencies 0/72 modules
+<s> [webpack.Progress] 13% building 1/18 entries 114/147 dependencies 2/72 modules
+<s> [webpack.Progress] 13% building 1/18 entries 205/240 dependencies 10/114 modules
+<s> [webpack.Progress] 16% building 2/18 entries 526/612 dependencies 65/199 modules
+<s> [webpack.Progress] 19% building 3/18 entries 644/726 dependencies 73/244 modules
+<s> [webpack.Progress] 19% building 3/18 entries 931/1163 dependencies 103/300 modules
+<s> [webpack.Progress] 19% building 3/18 entries 1192/1222 dependencies 128/400 modules
+<s> [webpack.Progress] 19% building 3/18 entries 1400/1719 dependencies 170/418 modules
+<s> [webpack.Progress] 19% building 3/18 entries 1700/1908 dependencies 192/552 modules
+<s> [webpack.Progress] 22% building 4/18 entries 2174/2706 dependencies 258/643 modules
+<s> [webpack.Progress] 22% building 4/18 entries 2744/2900 dependencies 283/844 modules
+<s> [webpack.Progress] 22% building 4/18 entries 3345/3400 dependencies 317/899 modules
+<s> [webpack.Progress] 22% building 4/18 entries 3800/3820 dependencies 363/989 modules
+<s> [webpack.Progress] 22% building 4/18 entries 4510/4700 dependencies 432/1044 modules
+<s> [webpack.Progress] 22% building 4/18 entries 5264/5391 dependencies 800/1147 modules
+<s> [webpack.Progress] 22% building 4/18 entries 5706/5900 dependencies 945/1221 modules
+<s> [webpack.Progress] 22% building 4/18 entries 6300/6374 dependencies 1079/1395 modules
+<s> [webpack.Progress] 22% building 4/18 entries 6500/6754 dependencies 1118/1479 modules
+<s> [webpack.Progress] 22% building 4/18 entries 6765/6839 dependencies 1131/1600 modules
+<s> [webpack.Progress] 23% building 4/18 entries 7000/7040 dependencies 1186/1645 modules
+<s> [webpack.Progress] 24% building 4/18 entries 7161/7200 dependencies 1346/1668 modules
+<s> [webpack.Progress] 25% building 4/18 entries 7300/7376 dependencies 1372/1676 modules
+<s> [webpack.Progress] 26% building 4/18 entries 7554/7585 dependencies 1486/1700 modules
+<s> [webpack.Progress] 27% building 4/18 entries 7700/7770 dependencies 1554/1729 modules
+<s> [webpack.Progress] 28% building 5/18 entries 7996/8022 dependencies 1651/1782 modules
+<s> [webpack.Progress] 28% building 6/18 entries 7996/8022 dependencies 1652/1782 modules
+<s> [webpack.Progress] 31% building 7/18 entries 7996/8022 dependencies 1653/1782 modules
+<s> [webpack.Progress] 34% building 8/18 entries 7996/8022 dependencies 1654/1782 modules
+<s> [webpack.Progress] 37% building 9/18 entries 7996/8022 dependencies 1655/1782 modules
+<s> [webpack.Progress] 40% building 10/18 entries 7996/8022 dependencies 1656/1782 modules
+<s> [webpack.Progress] 43% building 11/18 entries 7996/8022 dependencies 1657/1782 modules
+<s> [webpack.Progress] 46% building 12/18 entries 7996/8022 dependencies 1658/1782 modules
+<s> [webpack.Progress] 49% building 13/18 entries 7996/8022 dependencies 1659/1782 modules
+<s> [webpack.Progress] 52% building 14/18 entries 8234/8257 dependencies 1754/1830 modules
+<s> [webpack.Progress] 55% building 15/18 entries 8368/8368 dependencies 1832/1875 modules
+<s> [webpack.Progress] 58% building 16/18 entries 8368/8368 dependencies 1832/1875 modules
+<s> [webpack.Progress] 61% building 17/18 entries 8369/8369 dependencies 1857/1875 modules
+<s> [webpack.Progress] 65% building 18/18 entries 8374/8374 dependencies 1875/1875 modules
+<s> [webpack.Progress] 65% building
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing finish module graph angular-compiler
+<s> [webpack.Progress] 70% sealing finish module graph ResolverCachePlugin
+<s> [webpack.Progress] 70% sealing finish module graph InferAsyncModulesPlugin
+<s> [webpack.Progress] 70% sealing finish module graph FlagDependencyExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph InnerGraphPlugin
+<s> [webpack.Progress] 70% sealing finish module graph WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 70% sealing plugins WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing dependencies optimization SideEffectsFlagPlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization FlagDependencyUsagePlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 75% sealing chunk optimization EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization SplitChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization ModuleConcatenationPlugin
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 79% sealing module reviving RecordIdsPlugin
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 80% sealing module ids NamedModuleIdsPlugin
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 82% sealing chunk reviving RecordIdsPlugin
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 84% sealing chunk id optimization FlagIncludedChunksPlugin
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record modules RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 86% sealing record chunks RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 92% sealing asset processing copy-webpack-plugin
+<s> [webpack.Progress] 92% sealing asset processing PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 92% sealing asset processing TerserPlugin
+info => Manager built (52 s)
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.67a08f0d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.67a08f0d.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.0686e8f5.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.0686e8f5.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 434.3ed9d147.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 434.3ed9d147.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 228.2de93756.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 228.2de93756.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 565.39ad901c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 565.39ad901c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 239.6bb1e647.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 239.6bb1e647.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 471.670d66c3.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 471.670d66c3.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 345.e8af5391.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 345.e8af5391.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 39.11197386.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 39.11197386.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 996.80281b41.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 996.80281b41.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 225.00821251.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 225.00821251.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.94fe887d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.94fe887d.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 616.4a823cc6.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 616.4a823cc6.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 616.4a823cc6.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 616.4a823cc6.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.c7029ac2.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.c7029ac2.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.65339cf0.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.65339cf0.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 434.2c467153.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 434.2c467153.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 345.b8f4061f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 345.b8f4061f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 996.d4e97a00.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 996.d4e97a00.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 225.adf1b44b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 225.adf1b44b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 228.2f7edc13.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 228.2f7edc13.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 565.de0d997c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 565.de0d997c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 239.43bc22d7.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 239.43bc22d7.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 471.dfee531c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 471.dfee531c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 39.2ed10874.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 39.2ed10874.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.4044512f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.4044512f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit SizeLimitsPlugin
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% done plugins CaseSensitivePathsPlugin
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% 
+
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 100% 
+
+info => Preview built (1.05 min)
+WARN /Users/kazuma/storybook/taskbox/src/app/app.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/app/app.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/app/components/inbox-screen.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/environments/environment.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/main.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/stories/Button.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/stories/Header.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/stories/Page.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/stories/User.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/stories/button.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/stories/header.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/kazuma/storybook/taskbox/src/stories/page.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   228.2f7edc13.iframe.bundle.js (604 KiB)
+WARN   565.de0d997c.iframe.bundle.js (603 KiB)
+WARN   471.dfee531c.iframe.bundle.js (791 KiB)
+WARN   616.ae38c0c3.iframe.bundle.js (3.2 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (3.31 MiB)
+WARN       runtime~main.65339cf0.iframe.bundle.js
+WARN       616.ae38c0c3.iframe.bundle.js
+WARN       main.css
+WARN       main.c7029ac2.iframe.bundle.js
+WARN 
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 100% 
+
+info => Output directory: /var/folders/5_/__d3cd3x5nx1f8405txk2nqm0000gn/T/chromatic--98410-oUyONvPXdcQt
