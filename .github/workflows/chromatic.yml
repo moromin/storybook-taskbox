@@ -1,6 +1,9 @@
 name:  'Chromatic Deployment'
 
-on: push
+on:
+  push:
+    paths:
+      - 'src/app/**'
 
 jobs:
   test:
@@ -12,3 +15,6 @@ jobs:
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          exitZeroOnChanges: true
+          exitOnceUploaded: true
+
