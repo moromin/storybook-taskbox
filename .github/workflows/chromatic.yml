@@ -1,14 +1,28 @@
 name:  'Chromatic Deployment'
 
-on: push
+# This actions is triggered only when files positioned specified following paths are changed
+on:
+  pull_request:
+    paths:
+      - 'src/app/**'
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - run: yarn
+
+      # Node.js version management
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          cache: 'npm'
+      - run: npm ci
+
+      # Chromatic actions
       - uses: chromaui/action@v1
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          exitZeroOnChanges: true
+          exitOnceUploaded: true
