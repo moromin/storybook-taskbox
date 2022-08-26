@@ -25,4 +25,4 @@ jobs:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
           exitZeroOnChanges: true
-          exitOnceUploaded: true
+          # exitOnceUploaded: true
