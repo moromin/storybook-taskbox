@@ -2,7 +2,7 @@ name:  'Chromatic Deployment'
 
 # This actions is triggered only when files positioned specified following paths are changed
 on:
-  pull_request:
+  push:
     paths:
       - 'src/app/**'
 
