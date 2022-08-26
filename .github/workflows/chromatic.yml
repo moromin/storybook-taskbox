@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      
+      - name: Remove existing file
+        run: sudo rm -rf /home/runner/work/storybook-taskbox/storybook-taskbox/node_modules/chokidar2
 
       # Node.js version management
       - uses: actions/setup-node@v3
