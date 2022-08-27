@@ -40,8 +40,13 @@ jobs:
         env:
           STORYBOOK_URL: ${{ steps.chromatic.outputs.storybookUrl }}
 
+      - name: Confirm chromaui outputs
+        run: |
+          echo "origin-URL: ${{ steps.chromatic.outputs.storybookUrl }}"
+          echo "code: ${{ steps.chromatic.outputs.code }}"
+
       - name: Detect UI changes from visual regression test results
-        if: steps.chromatic.outputs.code == 1
+        if: steps.chromatic.outputs.code == '1'
         run: |
           echo "vrt_result_message=:orange_circle: Detect UI changes'" >> $GITHUB_ENV
 
