@@ -28,6 +28,7 @@ jobs:
 
       # Chromatic actions
       - uses: chromaui/action@v1
+        id: chromatic
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
