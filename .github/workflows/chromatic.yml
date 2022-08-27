@@ -41,7 +41,8 @@ jobs:
 
       - name: Detect UI changes from visual regression test results
         if: steps.chromatic.outputs.code == 1
-        run: echo "vrt_result_message=':orange_circle: Detect UI changes'" >> $GITHUB_ENV
+        run: |
+          echo "vrt_result_message=:orange_circle: Detect UI changes'" >> $GITHUB_ENV
 
       - name: Get datetime for now
         id: datetime
