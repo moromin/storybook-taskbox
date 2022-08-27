@@ -16,15 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: Remove existing file
-        run: sudo rm -rf /home/runner/work/storybook-taskbox/storybook-taskbox/node_modules/chokidar2
-
       # Node.js version management
       - uses: actions/setup-node@v3
         with:
           node-version: 14
           # cache: 'npm'
-      - run: npm ci --force
+      - run: |
+          sudo rm -rf /home/runner/work/storybook-taskbox/storybook-taskbox/node_modules/chokidar2
+          npm ci
 
       # Chromatic actions
       - uses: chromaui/action@v1
