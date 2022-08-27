@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 14
           # cache: 'npm'
-      - run: npm ci
+      - run: npm ci --force
 
       # Chromatic actions
       - uses: chromaui/action@v1
