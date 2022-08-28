@@ -30,6 +30,9 @@ jobs:
         run: |
           npx chromatic --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }} --junit-report --exit-zero-on-changes
 
+      - name: Install xmllint
+        run: sudo apt-get install libxml2-utils
+
       - name: Run original chromatic CLI script
         run: sh chromatic-build-log-xmllint.sh
 
