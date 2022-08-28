@@ -34,7 +34,6 @@ done
 # Results
 echo "<${storybookUrl}>" > result.md
 echo "<sub>Build URL: ${buildUrl}</sub>" >> result.md
-echo "<sub>(:fire: updated at $(date))</sub>" >> result.md
 echo ":orange_circle: failures: ${failures} \t :red_circle: errors: ${errors} \t :large_blue_circle: skipped: ${skipped}" >> result.md
 
 if [ "${failureCases}" != "" ]; then

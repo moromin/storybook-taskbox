@@ -30,8 +30,38 @@ jobs:
         run: |
           npx chromatic --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }} --junit-report --exit-zero-on-changes
 
-      - name: Confirm log file
-        run: |
-          cat chromatic-build-*.xml
+      - name: Run original chromatic CLI script
+        run: sh chromatic-build-log-xmllint.sh
+
+      - name: Output chromatic results
+        id: chromatic-result
+        run: echo "::set-output name=result::$(cat result.md)"
+
+      # PR comment
+      - name: Get datetime for now
+        id: datetime
+        run: echo "::set-output name=now::$(date)"
+        env:
+          TZ: Asia/Tokyo
+
+      - name: Find Comment
+        uses: peter-evans/find-comment@v1
+        id: fc
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: 'Storybook'
+
+      - name: Create or update comment
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            Visit the :books: **Storybook** :books: for this PR (updated for commit ${{ github.event.pull_request.head.sha }})
+            ${{ steps.chromatic-result.outputs.result }}
+            <sub>(:fire: updated at ${{ steps.datetime.outputs.now }})</sub>
+          edit-mode: replace
+
 
 
