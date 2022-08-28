@@ -46,3 +46,4 @@ thunder-client
 
 # build log
 chromatic-build-*.xml
+result.md
