@@ -22,8 +22,8 @@ jobs:
           node-version: 14
           # cache: 'npm'
       - run: |
-        sudo rm -rf /home/runner/work/storybook-taskbox/storybook-taskbox/node_modules/chokidar2
-        npm ci
+          sudo rm -rf /home/runner/work/storybook-taskbox/storybook-taskbox/node_modules/chokidar2
+          npm ci
 
       # Chromatic actions
       - name: Chromatic manually
