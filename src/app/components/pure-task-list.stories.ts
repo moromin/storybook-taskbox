@@ -22,7 +22,7 @@ export default {
     }),
     //👇 Wraps our stories with a decorator
     componentWrapperDecorator(
-      (story) => `<div style="margin: 3em">${story}</div>`
+      (story) => `<div style="margin: 2em">${story}</div>`
     ),
   ],
   title: 'PureTaskList',
