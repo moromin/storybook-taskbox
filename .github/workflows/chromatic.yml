@@ -28,7 +28,7 @@ jobs:
       # Chromatic actions
       - name: Chromatic manually
         run: |
-          npx chromatic --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }} --junit-report
+          npx chromatic --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }} --junit-report --exit-zero-on-changes
 
       - name: Confirm log file
         run: |
