@@ -10,9 +10,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    env:
-      vrt_result_message: ':green_circle: No changes'
-
     steps:
       - uses: actions/checkout@v1
 
@@ -32,6 +29,9 @@ jobs:
 
       - name: Install xmllint
         run: sudo apt-get install libxml2-utils
+
+      - name: Confirm log
+        run: cat chromatic-build-*.xml
 
       - name: Run original chromatic CLI script
         run: sh chromatic-build-log-xmllint.sh
