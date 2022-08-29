@@ -10,11 +10,19 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    env:
-      vrt_result_message: ':green_circle: No changes'
-
     steps:
       - uses: actions/checkout@v1
+      
+      - name: Set the value
+        id: step_one
+        run: |
+            echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
+            curl https://httpbin.org/json >> $GITHUB_ENV
+            echo 'EOF' >> $GITHUB_ENV
+
+      - name: Get the value
+        run: |
+          ${{ env.JSON_RESPONSE }}
 
       # Node.js version management
       - uses: actions/setup-node@v3
@@ -26,29 +34,24 @@ jobs:
           npm ci
 
       # Chromatic actions
-      - uses: chromaui/action@v1
-        id: chromatic
-        with:
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # Post comment about Chromatic information to PR
-      - name: Remove unnecessary path for Chromatic link
-        id: storybook-url
-        run: echo "::set-output name=URL::${STORYBOOK_URL//\/iframe.html/}"
-        env:
-          STORYBOOK_URL: ${{ steps.chromatic.outputs.storybookUrl }}
-
-      - name: Confirm chromaui outputs
+      - name: Chromatic manually
         run: |
-          echo "origin-URL: ${{ steps.chromatic.outputs.storybookUrl }}"
-          echo "code: ${{ steps.chromatic.outputs.code }}"
+          npx chromatic --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }} --junit-report --exit-zero-on-changes
 
-      - name: Detect UI changes from visual regression test results
-        if: steps.chromatic.outputs.code == '1'
-        run: |
-          echo "vrt_result_message=:orange_circle: Detect UI changes'" >> $GITHUB_ENV
+      - name: Install xmllint
+        run: sudo apt-get install libxml2-utils
 
+      - name: Confirm log
+        run: cat chromatic-build-*.xml
+
+      - name: Run original chromatic CLI script
+        run: sh chromatic-build-log-xmllint.sh
+
+      - name: Output chromatic results
+        id: chromatic-result
+        run: echo "::set-output name=result::$(cat result.md)"
+
+      # PR comment
       - name: Get datetime for now
         id: datetime
         run: echo "::set-output name=now::$(date)"
@@ -69,9 +72,10 @@ jobs:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            ${{ env.vrt_result_message }}
             Visit the :books: **Storybook** :books: for this PR (updated for commit ${{ github.event.pull_request.head.sha }})
-            <${{ steps.storybook-url.outputs.URL }}>
-            <sub>Build URL: ${{ steps.chromatic.outputs.buildUrl }}</sub>
+            ${{ steps.chromatic-result.outputs.result }}
             <sub>(:fire: updated at ${{ steps.datetime.outputs.now }})</sub>
           edit-mode: replace
+
+
+

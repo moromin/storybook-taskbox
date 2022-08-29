@@ -43,3 +43,7 @@ Thumbs.db
 
 # VSCode extensions
 thunder-client
+
+# build log
+chromatic-build-*.xml
+result.md
