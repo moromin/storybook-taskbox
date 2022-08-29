@@ -21,7 +21,8 @@ jobs:
             echo 'EOF' >> $GITHUB_ENV
 
       - name: Get the value
-        run: ${{ env.JSON_RESPONSE }}
+        run: |
+          ${{ env.JSON_RESPONSE }}
 
       # Node.js version management
       - uses: actions/setup-node@v3
