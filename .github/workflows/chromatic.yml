@@ -12,6 +12,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+      
+      - name: Set the value
+        id: step_one
+        run: |
+            echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
+            curl https://httpbin.org/json >> $GITHUB_ENV
+            echo 'EOF' >> $GITHUB_ENV
+
+      - name: Get the value
+        run: echo ${{ env.JSON_RESPONSE }}
 
       # Node.js version management
       - uses: actions/setup-node@v3
